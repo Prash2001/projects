@@ -1,0 +1,18 @@
+package com.java.bankingApplication0;
+
+import org.springframework.boot.SpringApplication;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import com.java.bankingApplication0.controller.CustomerController;
+@ComponentScan("com.example.bankingApplication.*")
+@ComponentScan("com.example.bankingApplication.repository.CustomerRepository")
+@ComponentScan(basePackageClasses = CustomerController.class)
+@SpringBootApplication
+public class BankingApplication0 {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BankingApplication0.class, args);
+	}
+
+}

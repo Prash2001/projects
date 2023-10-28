@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/prashantjapkar/eclipse-workspace/ClassData/src/main/java/com/java/ClassData/App.java"/>
+			<item value="/Users/prashantjapkar/eclipse-workspace/Map/src/main/java/com/java/Map/WorkWithMap.java"/>
+			<item value="/Users/prashantjapkar/eclipse-workspace/NYTimeZone/src/main/java/com/java/NYTimeZone/App.java"/>
+			<item value="/Users/prashantjapkar/eclipse-workspace/PatternSingleLoop/src/main/java/com/java/PatternSingleLoop/App.java"/>
+			<item value="/Users/prashantjapkar/eclipse-workspace/IndvidualDigit/src/main/java/com/java/IndvidualDigit/App.java"/>
+			<item value="/Users/prashantjapkar/eclipse-workspace/User/src/main/java/AAA/APP.java"/>
+			<item value="/Users/prashantjapkar/eclipse-workspace/XMLparser/myinfo.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.java.Logger"/>
+			<item value="com.java.SubStringWithHighFreq"/>
+			<item value="com.java.BooksData"/>
+			<item value="com.java.StringEncryption"/>
+			<item value="com.java.ConsecutiveEleSum"/>
+			<item value="com.java.StringWithHighestFreq"/>
+			<item value="com.java.NumberWithGap"/>
+			<item value="com.java.MonotonicArray"/>
+			<item value="com.java"/>
+			<item value="com.java.PhoneData"/>
+			<item value="com.java.NumberCount"/>
+			<item value="com.java.VowelCount"/>
+			<item value="com.java.PerfectSquare"/>
+			<item value="com.java.StreamPerformance"/>
+		</list>
+		<list key="groupId">
+			<item value="com.java"/>
+		</list>
+		<list key="artifactId">
+			<item value="Logger"/>
+			<item value="SubStringWithHighFreq"/>
+			<item value="BooksData"/>
+			<item value="StringEncryption"/>
+			<item value="ConsecutiveEleSum"/>
+			<item value="StringWithHighestFreq"/>
+			<item value="NumberWithGap"/>
+			<item value="MonotonicArray"/>
+			<item value="PhoneData"/>
+			<item value="NumberCount"/>
+			<item value="VowelCount"/>
+			<item value="PerfectSquare"/>
+			<item value="StreamPerformance"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/prashantjapkar/Downloads/project/acad-xapi-kafka-eks-test/acad-xapi-kafka-eks-test"/>
+			<item value="/Users/prashantjapkar/Downloads/project/acad-ms-user-learning_path_prefinal/acad-ms-user-learning_path_prefinal"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

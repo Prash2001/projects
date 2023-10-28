@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.overlap-container {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .component {
+    position: absolute;
+
+  }
+  
+  .component-1 {
+    top: 0;
+    left: 0;
+  }
+
+
+  .img1{
+    height: 413.4px;
+    width: 768px;
+    margin-left: 256px;
+    margin-top: 137.8px;
+  }
+  .img2{
+    height: 482.3px;
+    width: 896px;
+    margin-left: 192px;
+    margin-top: 103.35px;
+  }
+  .img3{
+    height: 551.2px;
+    width: 1024px;
+    margin-left: 128px;
+    margin-top: 68.9px;
+  }
+  .img4{
+    height: 620.1px;
+    width: 1152px;
+    margin-left: 64px;/**-24*/
+    margin-top: 34.45px;/**-12*/
+  }
+  .img5{
+    height: 689px;
+    width: 1280px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }

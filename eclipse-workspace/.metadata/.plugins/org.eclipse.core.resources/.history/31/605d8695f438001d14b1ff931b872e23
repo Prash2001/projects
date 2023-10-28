@@ -1,0 +1,26 @@
+package com.java.StreamDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        List<Integer> lst = new ArrayList<Integer>();
+        lst.add(10);
+        lst.add(20);
+        lst.add(30);
+        lst.add(40);
+        lst.add(50);
+        lst.add(10);
+        lst.parallelStream().distinct().forEach(System.out::println);;
+        System.out.println("General stream");
+        lst.stream().distinct().forEach(System.out::println);;
+    }
+}

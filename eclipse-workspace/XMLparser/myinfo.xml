@@ -1,0 +1,12 @@
+<myinfo>
+   <celebrity type="Scientist">
+      <firstname>Ritu</firstname>
+      <lastname>Karidhal</lastname>
+      <title>Mission Director</title>
+   </celebrity>
+   <celebrity type="Crickter">
+      <firstname>Sachin</firstname>
+      <lastname>Tendulkar</lastname>
+      <title>Master Blaster</title>
+   </celebrity>
+</myinfo>

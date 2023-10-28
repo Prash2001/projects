@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.java.fileDemo.controller&apos; to &apos;FileDemo/src/main/java/com.java.fileDemo&apos;&#x0A;- Original project: &apos;FileDemo1&apos;&#x0A;- Destination element: &apos;FileDemo/src/main/java/com.java.fileDemo&apos;&#x0A;- Original element: &apos;FileDemo1/src/main/java/com.java.fileDemo.controller&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=FileDemo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.java.fileDemo" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.java.fileDemo.controller" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1669813192315" version="1.0"/>
+</session>

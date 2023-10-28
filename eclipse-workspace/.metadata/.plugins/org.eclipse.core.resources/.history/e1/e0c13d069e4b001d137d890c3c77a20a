@@ -1,0 +1,39 @@
+package com.java.spring.data.jpa.api.service;
+import java.util.ArrayList;
+import java.util.List;
+import javax.annotation.PostConstruct;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.java.spring.data.jpa.api.dao.UserRepository;
+import com.java.spring.data.jpa.api.model.Customer;
+
+@Service
+public class UserService {
+
+  @Autowired
+  private UserRepository repository;
+  
+  @PostConstruct
+  public void initDB() {
+    List<Customer> customers = new ArrayList<>();
+    customers.add(new Customer(1,"TestUser1","IT Professional",21));
+    customers.add(new Customer(2,"TestUser2","BE developer",22));
+    customers.add(new Customer(3,"TestUser3","FE developer",23));
+    customers.add(new Customer(4,"TestUser4","FS developer",24));
+    customers.add(new Customer(5,"TestUser5","Projet Manager",25));
+    repository.saveAll(customers);
+  }
+  public List<Customer> getCustomers(){
+    return repository.findAll();
+  }
+  
+  public Customer getCustomerByName(String name){
+    return repository.findByName(name);
+  }
+  public Customer getCustomerById(int id){
+    return repository.findById(id);
+  }
+  public void deleteCustomerById(int id){
+    return repository.deleteById(id);
+  }
+}

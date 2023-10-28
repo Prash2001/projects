@@ -1,0 +1,31 @@
+package com.java.StreamDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        List<Integer> lst = new ArrayList<Integer>();
+        lst.add(10);
+        lst.add(20);
+        lst.add(30);
+        lst.add(40);
+        lst.add(50);
+        lst.add(10);
+        long start1 = System.nanoTime();
+        lst.parallelStream().distinct().forEach(System.out::println);
+        long duration1 = (System.nanoTime() - start1)/1000000;
+        System.out.print("parallel stream execution time in ms -> "+duration1);
+        long start2 = System.nanoTime();
+        lst.stream().distinct().forEach(System.out::println);
+        long duration2 = (System.nanoTime() - start2)/1000000;
+        System.out.print("general stream execution time in ms -> "+duration2);
+    }
+}

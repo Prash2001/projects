@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1661275980565" analysisTimestamp="1661275980410" release="">
+  <Project projectName="findbugsDemo">
+    <Jar>/Users/prashantjapkar/eclipse-workspace/findbugsDemo/target/classes</Jar>
+    <Jar>/Users/prashantjapkar/eclipse-workspace/findbugsDemo/target/test-classes</Jar>
+    <AuxClasspathEntry>/Users/prashantjapkar/eclipse-workspace/findbugsDemo/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/prashantjapkar/eclipse-workspace/findbugsDemo/target/test-classes</AuxClasspathEntry>
+    <SrcDir>/Users/prashantjapkar/eclipse-workspace/findbugsDemo/src/main/resources</SrcDir>
+    <SrcDir>/Users/prashantjapkar/eclipse-workspace/findbugsDemo/src/test/java</SrcDir>
+    <SrcDir>/Users/prashantjapkar/eclipse-workspace/findbugsDemo/src/main/java</SrcDir>
+    <SrcDir>/Users/prashantjapkar/eclipse-workspace/findbugsDemo/src/test/resources</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="findbugsDemo.Findbugs">
+      <SourceLine classname="findbugsDemo.Findbugs" sourcefile="Findbugs.java" sourcepath="findbugsDemo/Findbugs.java"/>
+    </Class>
+    <Method classname="findbugsDemo.Findbugs" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="findbugsDemo.Findbugs" start="6" end="12" startBytecode="0" endBytecode="14" sourcefile="Findbugs.java" sourcepath="findbugsDemo/Findbugs.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String"/>
+    </Type>
+    <SourceLine classname="findbugsDemo.Findbugs" start="6" end="6" startBytecode="6" endBytecode="6" sourcefile="Findbugs.java" sourcepath="findbugsDemo/Findbugs.java"/>
+    <SourceLine classname="findbugsDemo.Findbugs" start="6" end="6" startBytecode="6" endBytecode="6" sourcefile="Findbugs.java" sourcepath="findbugsDemo/Findbugs.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 23 Aug 2022 22:54:30 +0530" total_classes="1" referenced_classes="1" total_bugs="1" total_size="9" num_packages="1" java_version="18.0.2" vm_version="18.0.2+9-61" cpu_seconds="0.41" clock_seconds="0.16" peak_mbytes="1028.90" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="1">
+    <PackageStats package="findbugsDemo" total_bugs="1" total_types="1" total_size="9" priority_2="1">
+      <ClassStats class="findbugsDemo.Findbugs" sourceFile="Findbugs.java" interface="false" size="9" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="101" invocations="2" avgMicrosecondsPerInvocation="50636" maxMicrosecondsPerInvocation="88321" standardDeviationMircosecondsPerInvocation="37685"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1661275980565" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
