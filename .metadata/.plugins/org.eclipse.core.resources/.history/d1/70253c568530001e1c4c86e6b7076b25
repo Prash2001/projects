@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<div
+	style="float: left; clear: both; position: absolute; margin: 2px 170px; padding: 3px; border: 1px solid #000; background-color: #fff; top: 3px; color: #006600; font-weight: bold; font-size: 12px; z-index: 1000">
+
+	<font face="verdana"> <!-- Banner begins here --> Sucessfully
+		Added To WishList!<br>
+	<br> We will pass wishlist attribute in the model and show product
+		details here<br>
+	<br>
+		<button class="button button-no"
+			onclick="window.location.href='${pageContext.request.contextPath}/product/getProducts?section=All';">Go
+			Back</button>
+		<button class="button button-yes">Go To WishList</button> <!-- Banner ends here -->
+	</font>
+</div>

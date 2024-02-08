@@ -1,0 +1,12 @@
+#Tomcat publish data
+#Mon Jan 08 23:06:39 IST 2024
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\git\\spring\\projects\\ecom-demo-01\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9\ -\ Copy.jar=WEB-INF/lib/spring-web-5.3.9 - Copy.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\eclipse-workspace\\web-customer-tracker-aop\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9\ -\ Copy.jar=WEB-INF/lib/spring-web-5.3.9 - Copy.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\eclipse-workspace\\web-customer-tracker-aop\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources\ -\ Copy.jar=WEB-INF/lib/spring-web-5.3.9-sources - Copy.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\eclipse-workspace\\web-customer-tracker-aop\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\git\\spring\\projects\\ecom-demo-01\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources\ -\ Copy.jar=WEB-INF/lib/spring-web-5.3.9-sources - Copy.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\git\\spring\\projects\\ecom-demo-01\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\git\\spring\\projects\\ecom-demo-01\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\eclipse-workspace\\web-customer-tracker-aop\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\.m2\\repository\\org\\springframework\\spring-web\\5.0.2.RELEASE\\spring-web-5.0.2.RELEASE.jar=WEB-INF/lib/spring-web-5.0.2.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\prashantjapkar\\.m2\\repository\\org\\springframework\\spring-web\\5.0.5.RELEASE\\spring-web-5.0.5.RELEASE.jar=WEB-INF/lib/spring-web-5.0.5.RELEASE.jar

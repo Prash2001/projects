@@ -1,0 +1,8 @@
+127.0.0.1 - - [10/Aug/2023:20:11:48 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [10/Aug/2023:20:11:49 +0530] "GET /ecom-demo-01/ HTTP/1.1" 302 -
+127.0.0.1 - - [10/Aug/2023:20:11:50 +0530] "GET /ecom-demo-01/user/login HTTP/1.1" 200 4667
+127.0.0.1 - - [10/Aug/2023:20:12:14 +0530] "GET /ecom-demo-01/user/validateUser?txtName=luffy&txtPwd=meat HTTP/1.1" 302 -
+127.0.0.1 - - [10/Aug/2023:20:12:14 +0530] "GET /ecom-demo-01/product/getProducts?section=All HTTP/1.1" 200 695282
+127.0.0.1 - - [10/Aug/2023:20:21:12 +0530] "GET /ecom-demo-01/product/getProducts?section=All HTTP/1.1" 200 695282
+127.0.0.1 - - [10/Aug/2023:22:09:04 +0530] "GET /ecom-demo-01/product/getProducts?section=All HTTP/1.1" 302 -
+127.0.0.1 - - [10/Aug/2023:22:09:04 +0530] "GET /ecom-demo-01/user/login HTTP/1.1" 200 4667

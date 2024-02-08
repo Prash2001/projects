@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;view&apos;&#x0D;&#x0A;- Original project: &apos;spring-security-demo-07-restrict-access&apos;&#x0D;&#x0A;- Destination element: &apos;view&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     leaders-page.jsp&#x0D;&#x0A;     admin-page.jsp&#x0D;&#x0A;     access-denied.jsp" description="Copy files" element1="src/main/webapp/WEB-INF/view/leaders-page.jsp" element2="src/main/webapp/WEB-INF/view/admin-page.jsp" element3="src/main/webapp/WEB-INF/view/access-denied.jsp" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1676012355716" target="/spring-security-demo-08-jdbc-plaintext/src/main/webapp/WEB-INF/view" units="0" version="1.0"/>
+</session>

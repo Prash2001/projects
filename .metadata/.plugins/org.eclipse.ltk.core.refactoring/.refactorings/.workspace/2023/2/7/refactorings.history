@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring-rest-service-eith-controlleradvice&apos; to &apos;spring-rest-service-with-controlleradvice&apos;" description="Rename resource &apos;spring-rest-service-eith-controlleradvice&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/spring-rest-service-eith-controlleradvice" name="spring-rest-service-with-controlleradvice" stamp="1676368609732" updateReferences="true"/>
+</session>

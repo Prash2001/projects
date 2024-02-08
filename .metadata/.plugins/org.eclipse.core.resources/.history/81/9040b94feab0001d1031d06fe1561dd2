@@ -1,0 +1,2 @@
+management.endpoints.web.expose.include=health, i
+management.info.env.enabled=true

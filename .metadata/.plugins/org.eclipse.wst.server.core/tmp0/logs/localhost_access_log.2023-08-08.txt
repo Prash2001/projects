@@ -1,0 +1,17 @@
+127.0.0.1 - - [08/Aug/2023:19:34:37 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [08/Aug/2023:19:34:38 +0530] "GET /ecom-demo-01/ HTTP/1.1" 302 -
+127.0.0.1 - - [08/Aug/2023:19:34:39 +0530] "GET /ecom-demo-01/user/login HTTP/1.1" 200 4667
+127.0.0.1 - - [08/Aug/2023:19:34:46 +0530] "GET /ecom-demo-01/user/validateUser?txtName=luffy&txtPwd=meat HTTP/1.1" 302 -
+127.0.0.1 - - [08/Aug/2023:19:34:46 +0530] "GET /ecom-demo-01/product/getProducts?section=All HTTP/1.1" 200 14360
+127.0.0.1 - - [08/Aug/2023:19:34:46 +0530] "GET /ecom-demo-01/resources/img/nikeBoot.png HTTP/1.1" 200 9254
+127.0.0.1 - - [08/Aug/2023:19:34:46 +0530] "GET /ecom-demo-01/resources/img/boo.png HTTP/1.1" 200 78976
+127.0.0.1 - - [08/Aug/2023:19:35:27 +0530] "GET /ecom-demo-01/product/getImage HTTP/1.1" 200 12558
+127.0.0.1 - - [08/Aug/2023:19:35:27 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [08/Aug/2023:19:36:00 +0530] "GET /ecom-demo-01/cart/addToCart?cartItem=40 HTTP/1.1" 200 2466
+127.0.0.1 - - [08/Aug/2023:19:36:02 +0530] "GET /ecom-demo-01/cart/fetchCart HTTP/1.1" 200 8697
+127.0.0.1 - - [08/Aug/2023:19:36:02 +0530] "GET /ecom-demo-01/resources/js/cart.js HTTP/1.1" 304 -
+127.0.0.1 - - [08/Aug/2023:19:36:09 +0530] "GET /ecom-demo-01/product/getProducts?section=All HTTP/1.1" 200 14360
+127.0.0.1 - - [08/Aug/2023:19:36:26 +0530] "GET /ecom-demo-01/product/getProducts?section=Accessories HTTP/1.1" 200 4730
+127.0.0.1 - - [08/Aug/2023:19:36:26 +0530] "GET /ecom-demo-01/resources/img/accessories.png HTTP/1.1" 304 -
+127.0.0.1 - - [08/Aug/2023:22:29:27 +0530] "GET /ecom-demo-01/product/getProducts?section=All HTTP/1.1" 302 -
+127.0.0.1 - - [08/Aug/2023:22:29:27 +0530] "GET /ecom-demo-01/user/login HTTP/1.1" 200 4667

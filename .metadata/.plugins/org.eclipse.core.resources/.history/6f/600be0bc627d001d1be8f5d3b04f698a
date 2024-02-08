@@ -1,0 +1,27 @@
+package com.java.springdemo;
+
+public class BaseballCoach implements Coach {
+  private FortuneService fortune;
+  private HAppyFortuneService fortune1;
+  public BaseballCoach() {}
+// public BaseballCoach(HAppyFortuneService theFortune) {
+//   fortune = theFortune;
+// }
+ public void setFortuneService(HAppyFortuneService fortune) {
+   this.fortune = fortune;
+   fortune1 = fortune;
+ }
+  @Override
+  public String getDailyWorkout() {
+    return "30 min practice of batting";
+  }
+  @Override
+  public String getDailyFortune() {
+    return fortune.dailyFortune();
+  }
+  @Override
+  public String getDetails() {
+    return fortune1.getName()+fortune1.getNumber();
+  }
+
+}

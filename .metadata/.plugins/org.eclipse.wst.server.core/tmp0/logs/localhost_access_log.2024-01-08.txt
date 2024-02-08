@@ -1,0 +1,13 @@
+127.0.0.1 - - [08/Jan/2024:23:02:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:02:09 +0530] "GET /spring-rest-service-with-controlleradvice/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:02:48 +0530] "GET /spring-rest-service-with-controlleradvice/api/getStudents HTTP/1.1" 200 96
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:02:58 +0530] "GET /spring-rest-service-with-controlleradvice/api/getStudents/3 HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:03:26 +0530] "GET /spring-rest-service-with-controlleradvice/api/getStudents?studentId=3 HTTP/1.1" 200 96
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:03:40 +0530] "GET /spring-rest-service-with-controlleradvice/api/getStudent?studentId=3 HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:03:47 +0530] "GET /spring-rest-service-with-controlleradvice/api/getStudent/studentId=3 HTTP/1.1" 400 225
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:04:04 +0530] "GET /spring-rest-service-with-controlleradvice/api/getStudent/3 HTTP/1.1" 404 88
+127.0.0.1 - - [08/Jan/2024:23:07:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:07:44 +0530] "GET /spring-security-demo-03-custom-login/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:07:47 +0530] "GET /spring-security-demo-03-custom-login/showMyLoginPage HTTP/1.1" 200 570
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:08:05 +0530] "POST /spring-security-demo-03-custom-login/authenticateTheUser HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Jan/2024:23:08:06 +0530] "GET /spring-security-demo-03-custom-login/ HTTP/1.1" 200 148

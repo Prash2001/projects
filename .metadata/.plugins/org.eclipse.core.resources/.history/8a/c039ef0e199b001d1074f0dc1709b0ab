@@ -1,0 +1,73 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add-Product</title>
+<link type="text/css" rel="stylesheet"
+	href="${pageContext.request.contextPath}/resources/css/style.css" />
+</head>
+<link type="text/css" rel="stylesheet"
+	href="${pageContext.request.contextPath}/resources/css/add-customer-style.css" />
+</head>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h2>Add Product</h2>
+		</div>
+	</div>
+	<h3>Save Customer</h3>
+	<form:form action="saveProduct" modelAttribute="product" method="POST">
+		<form:hidden path="id" />
+		<table>
+			<tbody>
+				<tr>
+					<td><label>Product Name :</label></td>
+					<td><form:input path="name" /></td>
+				</tr>
+				<tr>
+					<td><label>Product Details :</label></td>
+					<td><form:input path="productDetails" /></td>
+				</tr>
+				<tr>
+					<td><label>Brand :</label></td>
+					<td><form:input path="brand" /></td>
+				</tr>
+				<tr>
+					<td><label>Image :</label></td>
+					<td><input type = "file" name = "image"/></td>
+				</tr>
+				<tr>
+					<td><label>Price in Rs.:</label></td>
+					<td><form:input path="price" /></td>
+				</tr>
+				<tr>
+					<td><label>Discount %</label></td>
+					<td><form:input path="discount" /></td>
+				</tr>
+				<tr>
+					<td><label>Section :</label></td>
+					<td>All : <form:radiobutton path="section" value="All" /></td>
+					<td>Men : <form:radiobutton path="section" value="Men" /></td>
+					<td>Women : <form:radiobutton path="section" value="Women" /></td>
+					<td>Kids : <form:radiobutton path="section" value="Kids" /></td>
+					<td>Accessories : <form:radiobutton path="section" value="Accessories" /></td>
+				</tr>
+				<tr>
+					<td><label></label></td>
+					<td><input type="submit" value="Save" class="save/" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</form:form>
+	<div style="">
+		<p>
+			<a href="${pageContext.request.contextPath}/customer/getDemo">Back
+				to site</a>
+		</p>
+	</div>
+</body>
+</html>

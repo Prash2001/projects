@@ -1,0 +1,20 @@
+package com.java.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MySpringHello {
+
+  public static void main(String[] args) {
+    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beanlifecycle-applicationContext.xml");
+    Coach theCoach = context.getBean("myBaseballCoach", Coach.class);
+    Coach alphaCoach = context.getBean("myBaseballCoach", Coach.class);
+    System.out.println(theCoach==alphaCoach);
+    System.out.println(theCoach);
+    System.out.println(alphaCoach);
+    System.out.println(theCoach.getDailyWorkout());
+    System.out.println(theCoach.getDailyFortune());
+    System.out.println(theCoach.getDetails());
+    context.close();
+  }
+
+}

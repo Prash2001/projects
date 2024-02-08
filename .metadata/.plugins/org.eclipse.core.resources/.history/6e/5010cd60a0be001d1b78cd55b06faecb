@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the size of the array: ");
+        int size = scanner.nextInt();
+        int[] arr = new int[size];
+
+        System.out.println("Enter the elements of the array:");
+        for (int i = 0; i < size; i++) {
+            arr[i] = scanner.nextInt();
+        }
+
+        Map<Integer, Integer> countMap = new HashMap<>();
+        int maxCount = 0;
+        for (int i = 0; i < size; i++) {
+            int count = countMap.getOrDefault(arr[i], 0) + 1;
+            countMap.put(arr[i], count);
+            maxCount = Math.max(maxCount, count);
+        }
+
+        System.out.print("The number(s) with highest occurrence: ");
+        for (int num : countMap.keySet()) {
+            if (countMap.get(num) == maxCount) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+}

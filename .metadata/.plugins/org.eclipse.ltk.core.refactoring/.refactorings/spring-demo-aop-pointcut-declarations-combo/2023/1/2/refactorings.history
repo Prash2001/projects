@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;spring-demo-aop-pointcut-declarations-combo&apos;&#x0D;&#x0A;- Original project: &apos;spring-demo-aop-pointcut-declarations-combo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.java.aopdemo.aspect.MyAPIAnalyticsAspect.java&#x0D;&#x0A;     com.java.aopdemo.aspect.MyLoggingAspect.java" description="Delete elements" element1="/src&lt;com.java.aopdemo.aspect{MyAPIAnalyticsAspect.java" element2="/src&lt;com.java.aopdemo.aspect{MyLoggingAspect.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1673257251768" subPackages="false" version="1.0"/>
+</session>

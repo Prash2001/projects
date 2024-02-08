@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\prashantjapkar\eclipse-workspace\FileDemo3"/>
+			<item value="C:\Users\prashantjapkar\eclipse-workspace\myApp\src\main\java\com\java\myApp\App.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\prashantjapkar\Downloads\demo"/>
+			<item value="C:\Users\prashantjapkar\Downloads\eclipse-workspace-20230805T165737Z-001\eclipse-workspace\FileDemo"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\bonus-code-multiple-jdbc-datasources-regular-spring"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\bonus-code-spring-security-user-registration-custom-user-details-thymeleaf-spring-boot"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\bonus-thymeleafdemo-employees-security-with-in-memory-authentication"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\bonus-thymeleafdemo-employees-security-with-jdbc-authentication"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\30-thymeleafdemo-helloworld"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\thymeleafdemo"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\start.spring.io-main"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\cruddemo"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\crm-with-security-jdbc-encryption-authentication\bonus-code-crm-with-security-jdbc-encryption-authentication"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\SpringBoot\mySpringBootApp"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\crm-web-app-rest-client-demo"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\spring-rest-demo"/>
+			<item value="C:\Users\prashantjapkar\Downloads\Spring Course\jackson-databinding-json-demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

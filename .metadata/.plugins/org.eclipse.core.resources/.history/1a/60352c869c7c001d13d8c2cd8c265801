@@ -1,0 +1,21 @@
+package com.java.demo;
+
+public class BaseballCoach implements Coach {
+	private FortuneService fortune;
+  @Override
+  public String getDailyWorkout() {
+    return "30 min Batting practice";
+  }
+  
+  public BaseballCoach(HappyFortuneService myFortuneService) {
+    fortune = myFortuneService;
+  }
+  public BaseballCoach(HappyFortuneService myFortuneService) {
+    fortune = myFortuneService;
+  }
+
+@Override
+public String getDailyFortune() {
+	return fortune.getFortune();
+}
+}

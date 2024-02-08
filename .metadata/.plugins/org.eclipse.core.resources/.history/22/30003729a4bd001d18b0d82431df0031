@@ -1,0 +1,5 @@
+package com.java.springboot.cruddemo.dao;
+
+public interface EmployeeDAO {
+private List<Employee> findAll();
+}

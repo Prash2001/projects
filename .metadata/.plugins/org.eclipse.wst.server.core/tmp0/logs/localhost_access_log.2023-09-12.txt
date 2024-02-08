@@ -1,0 +1,12 @@
+127.0.0.1 - - [12/Sep/2023:23:01:54 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [12/Sep/2023:23:01:57 +0530] "GET /ecom-demo-01/ HTTP/1.1" 302 -
+127.0.0.1 - - [12/Sep/2023:23:01:57 +0530] "GET /ecom-demo-01/user/login HTTP/1.1" 500 9973
+127.0.0.1 - - [12/Sep/2023:23:01:58 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [12/Sep/2023:23:03:44 +0530] "GET /ecom-demo-01/user/login HTTP/1.1" 200 4667
+127.0.0.1 - - [12/Sep/2023:23:03:54 +0530] "GET /ecom-demo-01/user/validateUser?txtName=luffy&txtPwd=meat HTTP/1.1" 302 -
+127.0.0.1 - - [12/Sep/2023:23:03:54 +0530] "GET /ecom-demo-01/product/getProducts?section=All HTTP/1.1" 200 695282
+127.0.0.1 - - [12/Sep/2023:23:27:59 +0530] "GET /ecom-demo-01/user/myUser HTTP/1.1" 200 2501
+127.0.0.1 - - [12/Sep/2023:23:28:04 +0530] "GET /ecom-demo-01/cart/fetchCart HTTP/1.1" 200 171753
+127.0.0.1 - - [12/Sep/2023:23:28:07 +0530] "GET /ecom-demo-01/cartItem/removeCartItem?productId=50&cartId=12 HTTP/1.1" 302 -
+127.0.0.1 - - [12/Sep/2023:23:28:07 +0530] "GET /ecom-demo-01/cart/fetchCart HTTP/1.1" 200 13433
+127.0.0.1 - - [12/Sep/2023:23:28:13 +0530] "GET /ecom-demo-01/product/getProducts?section=All HTTP/1.1" 200 695282

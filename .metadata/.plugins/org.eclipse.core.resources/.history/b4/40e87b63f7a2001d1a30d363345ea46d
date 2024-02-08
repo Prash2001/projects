@@ -1,0 +1,60 @@
+package com.java.springdemo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import com.java.springdemo.entity.User;
+import com.java.springdemo.service.UserService;
+
+@Controller
+@RequestMapping("/user")
+public class UserController {
+  @Autowired
+  private UserService userService;
+
+  @GetMapping("/login")
+  public String login(@ModelAttribute("user") User user , Model model) {
+    System.out.println("-------->"+user);
+    return "login";
+  }
+
+  @GetMapping("/showRegistrationForm")
+  public String showRegistrationForm(Model model) {
+    User user = new User();
+    model.addAttribute("user", user);
+    return "user-registration";
+  }
+
+  @GetMapping("/validateUser")
+  public String validateUser(@RequestParam("txtName") String username,
+      @RequestParam("txtPwd") String password, Model model, RedirectAttributes redirectAttributes) {
+    User user = userService.getUser(username, password);
+    if (user == null) {
+      return "failure";
+    }
+    redirectAttributes.addFlashAttribute("user", user);
+    System.out.println(user);
+    return "redirect:/product/getProducts";
+  }
+
+  @PostMapping("/addUser")
+  public String addUser(@ModelAttribute("user") User user) {
+    userService.addUser(user);
+    return "redirect:/user/login";
+  }
+
+  @GetMapping("/myUser")//@RequestParam("user") @Validated String user
+  public String myUser(@RequestParam("user") @Validated String user, Model model) {
+    System.out.println("THsdn fsdfsfsd"+user);
+    //User theUser = (User)user;
+    model.addAttribute("user", user);
+    return "user-details";
+  }
+}
